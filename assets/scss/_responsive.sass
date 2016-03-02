@@ -9,8 +9,8 @@
 @media (max-width: 1000px)
   .hero-unit,
   .hero-unit .caption
-    height: 400px
-    min-height: 400px
+    height: 450px
+    min-height: 450px
 
   .hero-unit .caption .text h1
     font-size: 3em
@@ -24,23 +24,93 @@
   .hero-unit .caption .text h5 i
     top: 10px
 
+  .awesome-ben
+    background-position: top -50px right -200px
+
+  .awesome-ben .awesome-ben-list li
+    width: 80%
+
+  .awesome-ben .awesome-ben-list:before
+    height: 220px
+
 // /* Larger than tablet */
 @media (max-width: 750px)
   .hero-unit,
   .hero-unit .caption
-    height: 300px
-    min-height: 300px
+    height: 400px
+    min-height: 400px
+
+  .section
+    padding: 45px 0
+
+  .awesome-ben .awesome-ben-list li
+    width: 90%
+
 
 @media (max-width: 650px)
+  .hero-unit
+    background-position: top -120px center
+
   .hero-unit .caption .text h1
     font-size: 2.5em
 
   .hero-unit .caption .text p
-    font-size: 1.6em
+    font-size: 1.3em
+    padding: 0 30px
 
+  .title
+    font-size: 24px
+
+  .work-step h2
+    margin-bottom: 30px
+
+  .work-step .icons img
+    max-width: 80%
+
+  .section .row:before
+    top: 140px
+
+// /* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 550px)
+  .hero-unit,
+  .hero-unit .caption
+    height: 350px
+    min-height: 350px
+
+  .hero-unit .caption .text h5
+    font-size: 1.2em
+    margin: 0 30px
+
+  .section
+    padding: 30px 0
+
+  .title
+    font-size: 24px
+
+  .awesome-ben .awesome-ben-list:before
+    height: 280px
+
+  .awesome-ben
+    background: #f8f8f8
+
+  .section .row:before
+    display: none
+
+  .work-step .icons img
+    width: 30%
+
+  .work-step .icons
+    margin-bottom: 45px
+    padding: 0 60px
 
 // /* Larger than mobile */
-// @media (max-width: 400px) {}
+@media (max-width: 400px)
+  .awesome-ben .awesome-ben-list:before
+    height: 340px
+
+  .work-step .icons
+    padding: 0 15px
+
 //
 // /* Larger than phablet (also point when grid becomes active) */
 // @media (max-width: 550px) {}
