@@ -1,0 +1,79 @@
+/*body reset*/
+body{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.3px;
+  overflow-X: hidden;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/*ul, ol, li*/
+ul, ol, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// a reset
+a{
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a:hover,
+a:active,
+a:focus{
+  outline: none !important;
+}
+
+i{
+  font-style: normal
+}
+
+// responsive image
+img {
+  max-width:100%;
+  height:auto;
+  display:block;
+  vertical-align: middle;
+}
+
+/*outline & box-sizing*/
+*{
+  outline: none;
+  box-sizing: border-box;
+}
+
+:before, :after {
+  box-sizing: border-box;
+}
+
+/*paragraph*/
+p{
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 1.3em;
+  opacity: 0.95;
+
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

@@ -1,0 +1,198 @@
+/* #custon
+ ***********************************************/
+.title
+  font-size: 32px
+  font-weight: $regular
+  color: #333
+
+.text-upper
+  text-transform: uppercase
+
+
+/* #header
+ ***********************************************/
+.header
+  width: 100%
+  height: 100px
+  line-height: 100px
+  border-bottom: 1px solid rgba(0,0,0,.1)
+
+  .logo
+    float: left
+    min-height: 100px
+    height: 100px
+    display: table
+
+    a
+      display: table-cell
+      vertical-align: middle
+      line-height: 100px
+
+  .navbar
+    text-align: right
+
+/* #hero unit
+ ***********************************************/
+.hero-unit
+  width: 100%
+  height: 600px
+  min-height: 600px
+  background: url('../img/vendors-main-banner.jpg') top center no-repeat
+  background: cover
+
+  .caption
+    width: 100%
+    height: 600px
+    min-height: 600px
+    display: table
+    color: #FFF
+
+    .text
+      display: table-cell
+      vertical-align: middle
+      text-align: center
+
+      h1
+        font-size: 4em
+        font-family: $banner-text
+
+      p
+        font-size: 2em
+        font-weight: $light
+
+      h5
+        font-size: 1.6em
+        display: inline-block
+        padding: 5px 10px
+        font-style: italic
+        font-weight: $regular
+        border:
+          top: 1px solid rgba(255,255,255,.4)
+          bottom: 1px solid rgba(255,255,255,.4)
+
+        i
+          width: 12px
+          height: 12px
+          margin: 0 10px
+          border-radius: 50%
+          display: inline-block
+          background: #fff
+          position: relative
+          top: 14px
+
+/* #section work-step
+ ***********************************************/
+.section
+  padding: 60px 0
+  position: relative
+
+  .row::before
+    width: 60%
+    height: 2px
+    position: absolute
+    content: ''
+    top: 190px
+    left: 20%
+    background: #95a5a6
+    z-index: -1
+    text-align: center
+
+.work-step
+  h2
+    text-align: center
+    margin-bottom: 45px
+
+  .icons
+    text-align: center
+
+    h4
+      font-size: 18px
+      font-weight: bold
+      margin: 30px 0 5px 0
+
+    p
+      font-size: 16px
+      line-height: 1.3
+
+    img
+      margin: 0 auto
+
+
+/* #section
+ ***********************************************/
+.awesome-ben
+  background: #f8f8f8 url('../img/awesome-beni.png') top right no-repeat
+
+  h2
+    margin-bottom: 30px
+    font-weight: $bold
+    position: relative
+    padding-bottom: 15px
+
+    &::after
+      width: 50px
+      height: 5px
+      background: #333
+      position: absolute
+      content: ''
+      left: 0
+      bottom: 0
+
+  h5
+    font-size: 18px
+    color: #f39c12
+
+  .awesome-ben-list
+    margin-top: 30px
+    position: relative
+
+    &::before
+      width: 2px
+      height: 190px
+      border-left: 2px solid #333
+      position: absolute
+      content: ''
+      left: 9px
+      top: 8px
+      z-index: 1
+
+    li
+      width: 70%
+      font-size: 18px
+      letter-spacing: 1px
+      margin-bottom: 15px
+      padding-bottom: 20px
+      border-bottom: 1px solid rgba(0,0,0,.1)
+      color: #666
+      position: relative
+      margin-left: 45px
+
+      &::after
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        background: #333
+        position: absolute
+        content: ''
+        left: -40px
+        top: 10px
+        z-index: 2
+
+      &::before
+        width: 20px
+        height: 20px
+        border-radius: 50%
+        border: 1px solid #333
+        background: #fff
+        position: absolute
+        content: ''
+        left: -45px
+        top: 5px
+        z-index: 1
+
+
+
+
+      &:last-child
+        border-bottom: none
+        margin-bottom: 0
